@@ -1,0 +1,17 @@
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Effect": "Allow",
+            "Principal": {
+                "AWS": "arn:aws:iam::855806900136:user/udy22000-s"
+            },
+            "Action": "sts:AssumeRole",
+            "Condition": {
+                "StringEquals": {
+                    "sts:ExternalId": "ZK37144_SFCRole=2_J0EmeDUmBTZcsGXHvdl56Z0Cm2Y="
+                }
+            }
+        }
+    ]
+}
